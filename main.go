@@ -1,19 +1,15 @@
 package main
 
-import "fmt"
-
 func main() {
 
-	// I think this ought to be distributed as a go binary
+	/*
+		okay so this doesn't need to be a repl at all
+		it really just needs to be an executable that parses
+		it's arguments and and operates accordingly
 
-	var response string
+		honestly, this should just use a template
+		a: I shouldn't reinvent the wheel here
 
-	// I should probably just lookup how to make a repl, they've been doing it for like 70 years no need to invent the wheel here
-
-	// I wonder if I could get this utility on homebrew
-
-	// so this is basicaly going to constitute a repl that will communicate with a local docker container, gonna wanna make it a while loop
-	for {
-		fmt.Println(response)
-	}
+		b: I don't write cli utilities for a living, I write microservices
+	*/
 }
